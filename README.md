@@ -1,1 +1,6 @@
-# inn0v4t10n
+function innovate(mind) {
+  if (mind.curious) {
+    return { innovation: `💡 ${mind.idea}`, source: 'curiosity' };
+  }
+  return mind.bored ? null : undefined;
+}
